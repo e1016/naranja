@@ -7,11 +7,11 @@
 
 <h6 align="center">Script</h6>
 <p align="center">
-<code>&lt;script src="https://unpkg.com/naranja@1.0.0/lib/naranja.min.js">&lt;/script&gt;</code>
+<code>&lt;script src="https://unpkg.com/naranja@1.0.1/lib/naranja.min.js">&lt;/script&gt;</code>
 </p>
 <h6 align="center">Styles</h6>
 <p align="center">
-<code>&lt;link rel="stylesheet" href="https://unpkg.com/naranja@1.0.0/lib/naranja.min.css"&gt;</code>
+<code>&lt;link rel="stylesheet" href="https://unpkg.com/naranja@1.0.1/lib/naranja.min.css"&gt;</code>
 </p>
 <p align="center">npm soon...</p>
 
