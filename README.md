@@ -3,7 +3,7 @@
 
 <h1 align="center">🍊 Naranja</h1>
 
-<h3 align="center">Notifications with a great look</h3>
+<h3 align="center">Notifications with a great look – <a href="https://e1016.github.io/naranja-demo/">Live demo</a></h3>
 
 <h6 align="center">Script</h6>
 <p align="center">
