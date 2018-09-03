@@ -1,0 +1,11 @@
+{
+  "name": "naranja",
+  "version": "0.0.1",
+  "description": "Notifications for modern web design",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "Eliseo Geraldo <e10169610@gmail.com>",
+  "license": "MIT"
+}

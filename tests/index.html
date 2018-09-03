@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Naranja notifications</title>
+  <meta name="viewport" content="initial-scale=1,width=device-width">
+  <script src="../lib/naranja.min.js"></script>
+  <link rel="stylesheet" href="../lib/naranja.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <button onclick="nn('log')">log</button>
+  <button onclick="nn('success')">success</button>
+  <button onclick="nn('warn')">warn</button>
+  <button onclick="nn('error')">error</button>
+</body>
+
+<script>
+
+  function nn (type) {
+    naranja()[type]({
+      title: 'New notifiaction?',
+      text: 'Click on accept for create new notification',
+      timeout: 'keep',
+      buttons: [{
+        text: 'Aceptar',
+        click: function (e) {
+          naranja().success({
+            title: 'Notification',
+            text: 'Notification was accepted'
+          })
+        }
+      },{
+        text: 'Cancelar',
+        click: function (e) {
+          e.closeNotification()
+        }
+      }]
+    })
+  }
+
+  </script>
+</html>
