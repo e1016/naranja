@@ -1,4 +1,4 @@
-// out: naranja.css, compress: true
+// out: naranja.min.css, compress: true
 
 @log: #F9F9F9;
 @logButtonBorder: #D2D2D2;
@@ -18,12 +18,13 @@
 
 .naranja-notification {
   height: 0px;
+  box-sizing: content-box;
   padding: 10px 0;
   transition: padding 0.7s cubic-bezier(0, 0.5, 0, 1), height 0.7s cubic-bezier(0, 0.5, 0, 1);
   * { box-sizing: border-box }
   .narj {
-    background-color: @log;
     &-log {
+      background-color: @log;
       button {
         border: 1px solid @logButtonBorder;
         background-color: white;
@@ -169,6 +170,7 @@
 }
 
 .naranja-notification-box {
+  box-sizing: content-box;
   display: flex;
   flex-direction: column-reverse;
   position: fixed;
