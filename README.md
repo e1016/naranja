@@ -5,6 +5,12 @@
 
 <h3 align="center">Notifications with a great look – <a href="https://e1016.github.io/naranja-demo/">Live demo</a></h3>
 
+<h4 align="center">
+  <code>
+    npm install --save naranja
+  </code>
+</h4>
+
 <h6 align="center">Script</h6>
 <p align="center">
 <code>&lt;script src="https://unpkg.com/naranja@1.0.1/lib/naranja.min.js">&lt;/script&gt;</code>
