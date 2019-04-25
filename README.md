@@ -19,10 +19,15 @@
 <p align="center">
 <code>&lt;link rel="stylesheet" href="https://unpkg.com/naranja@1.0.1/lib/naranja.min.css"&gt;</code>
 </p>
-<p align="center">npm soon...</p>
+<p align="center">npm i -s naranja</p>
 
 
-
+```js
+// script
+import naranja from 'naranja'
+// styles
+import '~/naranja/lib/naranja.min.css'
+```
 <p align="center">
   <img src="https://i.imgur.com/8vWYkFd.gif" />
 <p>
