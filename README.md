@@ -5,11 +5,9 @@
 
 <h3 align="center">Notifications with a great look – <a href="https://e1016.github.io/naranja-demo/">Live demo</a></h3>
 
-<h4 align="center">
-  <code>
-    npm install --save naranja
-  </code>
-</h4>
+
+`npm install --save naranja`
+
 
 <h6 align="center">Script</h6>
 <p align="center">
@@ -41,7 +39,7 @@ naranja().log({
   title: 'Notification Title', // <- required
   text: 'Here goes a description for notifiaction', // <- required
   icon: true or false, // <- unrequired, default true,
-  timeout: 2000 or 'keep', // <- unrequired, default 3000 miliseconds
+  timeout: 2000 or 'keep', // <- unrequired, default 5000 miliseconds
   buttons: [
     {
       text: 'OK',
