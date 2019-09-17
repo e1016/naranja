@@ -1,10 +1,20 @@
 {
   "name": "naranja",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Notifications for modern web design",
   "main": "index.js",
   "directories": {
     "lib": "lib"
+  },
+  "keywords": [
+    "notifications",
+    "pretty-notifications",
+    "pure-javascript-notifications",
+    "javascript-notifications"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e1016/naranja.git"
   },
   "author": "Eliseo Geraldo <e10169610@gmail.com>",
   "license": "MIT"
