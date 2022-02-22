@@ -3,7 +3,7 @@
 
 <h1 align="center">🍊 Naranja</h1>
 
-<h3 align="center">Notifications with a great look – <a href="https://e1016.github.io/naranja-demo/">Live demo</a></h3>
+<h3 align="center">Pure JS, HTML, and CSS Notifications with a great look – <a href="https://e1016.github.io/naranja-demo/">Live demo</a></h3>
 
 
 `npm install --save naranja`
